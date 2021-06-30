@@ -28,9 +28,15 @@ Accept-Language
 Content-Language
 Content-Type whose value, once parsed, has a MIME type (ignoring parameters) that is application/x-www-form-urlencoded, multipart/form-data, or text/plain
 
-https://habr.com/ru/post/346628/
-https://www.marcobehler.com/guides/spring-security
+[Spring CSRF article](https://docs.spring.io/spring-security/site/docs/5.0.x/reference/html/csrf.html)
+
+Полезные статьи по устройству Spring Security:
+(https://www.marcobehler.com/guides/spring-security)
+(https://habr.com/ru/post/346628/)
+
+Концепция фильтров в Spring Security: 
+![img.png](img.png)
+
 https://www.baeldung.com/security-spring
 https://medium.com/javarevisited/all-you-need-to-know-about-spring-security-basics-aea98c680d01
 https://www.javainuse.com/webseries/spring-security-jwt/chap3
-https://cloud.spring.io/spring-cloud-contract/2.0.x/multi/multi__spring_cloud_contract_wiremock.html
