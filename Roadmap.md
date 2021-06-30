@@ -27,12 +27,12 @@ Accept
 Accept-Language
 Content-Language
 Content-Type whose value, once parsed, has a MIME type (ignoring parameters) that is application/x-www-form-urlencoded, multipart/form-data, or text/plain
-
+```
 [Spring CSRF article](https://docs.spring.io/spring-security/site/docs/5.0.x/reference/html/csrf.html)
 
 Полезные статьи по устройству Spring Security:
-(https://www.marcobehler.com/guides/spring-security)
-(https://habr.com/ru/post/346628/)
+<https://www.marcobehler.com/guides/spring-security>
+<https://habr.com/ru/post/346628/>
 
 Концепция фильтров в Spring Security: 
 ![img.png](img.png)
