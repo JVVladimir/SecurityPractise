@@ -32,19 +32,6 @@ class CSRFControllerTest {
     }
 
     /**
-     * POST запрос требует scrf токен для успешного исполнения
-     *
-     * */
-    @Test
-    fun `csrf filter returns 200`() {
-        val builder = MockMvcRequestBuilders
-            .post("/csrf/post")
-            .header("X-CSRF-TOKEN", "")
-
-        client.perform(builder).andExpect(MockMvcResultMatchers.status().isOk)
-    }
-
-    /**
      * GET запрос не требует scrf токен для успешного исполнения, т.к. GET не модифицирует данные
      *
      * */
